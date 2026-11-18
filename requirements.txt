@@ -1,0 +1,5 @@
+# 核心实现零依赖，Python >= 3.10 即可运行 demo.py 与 eval/benchmark.py
+# 以下为可选增强：
+pydantic>=2.0        # 若要把 schemas.py 的 dataclass 换成 Pydantic 模型
+torch>=2.0           # 仅 train/train_verifier.py 需要
+numpy>=1.24          # 仅 train/train_verifier.py 需要
