@@ -6,3 +6,4 @@
   语料与评测集替换、参数实验、消融复跑与实验记录。
 - 说明：`veriagent/` 为 Python 包名，保持一致以免破坏 import；
   对外展示名为「VeriAgent」。
+完整可运行目录见 VeriAgent.zip，解压后 python demo.py 即可复现。
